@@ -5,7 +5,7 @@ Please follow the steps bellow to install docussaurus for local development and 
 
 This template is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, to provide a documentation system.
 
-# Prerequisites
+# Before start
 
 ### Install NodeJS :
 - Windows : 
