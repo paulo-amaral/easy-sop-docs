@@ -1,4 +1,4 @@
-# HOWTO INSTALL - ICT ENVIRONMENT DOCUMENTATION
+# HOWTO INSTALL 
 Please follow the steps bellow to install docussaurus for local development and build the static website.
 
 # Template
