@@ -27,7 +27,7 @@ nvm -v
 ##  1 - Installation
 
 ```console
-git clone https://git.tribunais.tl/apps/sop-docs.git
+git clone https://github.com/paulo-amaral/easy-sop-docs.git
 cd sop-docs
 npm install
 ```
@@ -65,9 +65,10 @@ After change and save files:
 ```console
 git add.
 git commit -m "updated files" 
-git push --set-upstream https://git.tribunais.tl/apps/sop-docs.git
+git push --set-upstream https://github.com/paulo-amaral/easy-sop-docs
 ```
-go to https://git.tribunais.tl/apps/sop-docs and check if repo is updated.
+go to https://github.com/paulo-amaral/easy-sop-docs and check if repo is updated.
+
 ## Install search
 Docussaurus doesn't have support to offline search, but in this deploy, the ICT Team provided the feature.
 
