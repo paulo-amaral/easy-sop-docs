@@ -55,7 +55,7 @@ service.
 
 Copy all contents of your Build folder to the webserver:
 ```console
-scp -r build/* administrator@srv003.tribunais.tl:/var/www/km
+scp -r build/* user@ip.server:/var/www/yourwebsite
 ```
 
 ## 5 - Update changes on remote GITLAB repo
