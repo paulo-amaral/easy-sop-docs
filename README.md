@@ -76,5 +76,5 @@ The search  is based on:
 https://github.com/lelouch77/docusaurus-lunr-search
 
 ## Setup mdx-mermaid in Docusaurus.
-Add a Mermaid diagram im md or mdx
+Add a Mermaid diagram in md or mdx
 https://docusaurus.io/community/resources
