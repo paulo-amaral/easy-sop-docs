@@ -74,3 +74,7 @@ Docussaurus doesn't have support to offline search, but in this deploy, the ICT 
 
 The search  is based on: 
 https://github.com/lelouch77/docusaurus-lunr-search
+
+## Setup mdx-mermaid in Docusaurus.
+Add a Mermaid diagram:
+https://docusaurus.io/community/resources
