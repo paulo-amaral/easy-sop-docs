@@ -1,5 +1,5 @@
 # HOWTO INSTALL 
-Please follow the steps bellow to install docussaurus for local development and build the static website.
+Please follow the steps bellow to install docusaurus for local development and build the static website.
 
 # Template
 
@@ -60,7 +60,7 @@ scp -r build/* user@ip.server:/var/www/yourwebsite
 ```
 
 ## Install search
-Docussaurus doesn't have support to offline search, but in this deploy, the ICT Team provided the feature.
+Docusaurus doesn't have support to offline search(check docusaurus docs).
 
 The search  is based on: 
 https://github.com/lelouch77/docusaurus-lunr-search
