@@ -1,5 +1,5 @@
-# HOWTO INSTALL - ICT ENVIRONMENT DOCUMENTATION
-Please follow the steps bellow to install docussaurus for local development and build the static website.
+# HOWTO INSTALL 
+Please follow the steps bellow to install docusaurus for local development and build the static website.
 
 # Template
 
@@ -22,13 +22,13 @@ npm -v
 nvm -v
 ````
 
-# Docussaurus 
+# Docusaurus 
 
-##  1 - Installation
+##  1 - Clone repo and install
 
 ```console
-git clone https://git.tribunais.tl/apps/sop-docs.git
-cd sop-docs
+git clone https://github.com/paulo-amaral/easy-sop-docs.git
+cd easy-sop-docs
 npm install
 ```
 
@@ -55,21 +55,11 @@ service.
 
 Copy all contents of your Build folder to the webserver:
 ```console
-scp -r build/* administrator@srv003.tribunais.tl:/var/www/km
+scp -r build/* user@server:/var/www/
 ```
 
-## 5 - Update changes on remote GITLAB repo
-
-After change and save files:
-
-```console
-git add.
-git commit -m "updated files" 
-git push --set-upstream https://git.tribunais.tl/apps/sop-docs.git
-```
-go to https://git.tribunais.tl/apps/sop-docs and check if repo is updated.
 ## Install search
-Docussaurus doesn't have support to offline search, but in this deploy, the ICT Team provided the feature.
+Docussaurus doesn't have support to offline search, but in this deploy(check docusaurus docs).
 
 The search  is based on: 
 https://github.com/lelouch77/docusaurus-lunr-search
