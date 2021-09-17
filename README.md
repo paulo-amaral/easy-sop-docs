@@ -22,7 +22,7 @@ npm -v
 nvm -v
 ````
 
-# Docussaurus 
+# Docusaurus 
 
 ##  1 - Installation
 
