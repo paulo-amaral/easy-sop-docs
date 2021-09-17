@@ -56,11 +56,11 @@ service.
 - Install docker-ce and docker compose with this script : https://gist.github.com/paulo-amaral/d8995b42d6fc3b7a0984ee39ac927550 
 - Clone repo :
 
-  ```
+  ```console
   git clone https://github.com/paulo-amaral/easy-sop-docs.git
   cd easy-sop-docs
   docker-compose up -d --build
-  ```
+  ````
   
 
 ## Install search
