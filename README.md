@@ -83,7 +83,9 @@ require('mdx-mermaid')
 
 to `remarkPlugins`
 
-```js title=docusaurus.config.js
+into `docusaurus.config.js`
+
+```
 presets: [
     [
       '@docusaurus/preset-classic',
