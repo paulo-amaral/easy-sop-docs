@@ -6,6 +6,5 @@ hide_title: true
 sidebar_label: Introdução
 ---
 
-# TR-DOCS
+# INTRO
 
-![Tribunais](/img/banner.svg)
