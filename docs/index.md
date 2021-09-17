@@ -8,4 +8,4 @@ sidebar_label: Introdução
 
 # INTRO
 
-![Tribunais](/img/banner.svg)
+
