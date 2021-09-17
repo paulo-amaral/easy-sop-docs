@@ -51,12 +51,17 @@ npm run build
 This command generates static content into the `build` directory and can be served using any static contents hosting
 service.
 
-## 4 - Deployment 
+## 4 - Deployment with Docker and Docker compose
 
-Copy all contents of your Build folder to the webserver:
-```console
-scp -r build/* user@server:/var/www/
-```
+- Install docker-ce and docker compose with this script : https://gist.github.com/paulo-amaral/d8995b42d6fc3b7a0984ee39ac927550 
+- Clone repo :
+
+  ```
+  git clone https://github.com/paulo-amaral/easy-sop-docs.git
+  cd easy-sop-docs
+  docker-compose up -d --build
+  ```
+  
 
 ## Install search
 Docussaurus doesn't have support to offline search, but in this deploy(check docusaurus docs).
