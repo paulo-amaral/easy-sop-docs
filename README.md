@@ -1,11 +1,11 @@
-# HOWTO INSTALL - ICT ENVIRONMENT DOCUMENTATION
-Please follow the steps bellow to install docussaurus for local development and build the static website.
+# HOWTO INSTALL 
+Please follow the steps bellow to install docusaurus for local development and build the static website.
 
 # Template
 
-This template is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, to provide a documentation system for the ICT of Courts.
+This template is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, to provide a documentation system.
 
-# Prerequistes
+# Before start
 
 ### Install NodeJS :
 - Windows : 
@@ -22,12 +22,12 @@ npm -v
 nvm -v
 ````
 
-# Docussaurus 
+# Docusaurus 
 
 ##  1 - Installation
 
 ```console
-git clone https://git.tribunais.tl/apps/sop-docs.git
+git clone https://github.com/paulo-amaral/easy-sop-docs.git
 cd sop-docs
 npm install
 ```
@@ -53,23 +53,36 @@ service.
 
 ## 4 - Deployment 
 
+
 Copy all contents of your Build folder to the webserver:
 ```console
-scp -r build/* administrator@srv003.tribunais.tl:/var/www/km
+scp -r build/* user@ip.server:/var/www/yourwebsite
 ```
 
-## 5 - Update changes on remote GITLAB repo
-
-After change and save files:
-
-```console
-git add.
-git commit -m "updated files" 
-git push --set-upstream https://git.tribunais.tl/apps/sop-docs.git
-```
-go to https://git.tribunais.tl/apps/sop-docs and check if repo is updated.
 ## Install search
-Docussaurus doesn't have support to offline search, but in this deploy, the ICT Team provided the feature.
+Docusaurus doesn't have support to offline search(check docusaurus docs).
 
 The search  is based on: 
 https://github.com/lelouch77/docusaurus-lunr-search
+
+## Setup mdx-mermaid in Docusaurus.
+Add a Mermaid diagram in md or mdx
+https://sjwall.github.io/mdx-mermaid/docs/intro/
+
+## 5 - Docker
+Install docker and docker compose (use this script) :
+https://gist.github.com/paulo-amaral/d8995b42d6fc3b7a0984ee39ac927550
+
+Clone the repository:
+
+```
+git clone https://github.com/paulo-amaral/easy-sop-docs
+```
+
+Deploy:
+
+```
+docker-compose up -d --build
+```
+
+
