@@ -68,3 +68,27 @@ Docussaurus doesn't have support to offline search, but in this deploy(check doc
 
 The search  is based on: 
 https://github.com/lelouch77/docusaurus-lunr-search
+
+## Setup docusaurus for mermaid(diagrams)
+``
+npm i mdx-mermaid mermaid
+``
+### Configure in Docusaurus
+
+Add
+
+```js
+require('mdx-mermaid')
+```
+
+to `remarkPlugins`
+
+```js title=docusaurus.config.js
+presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          remarkPlugins: [require('mdx-mermaid')],
+```
+
