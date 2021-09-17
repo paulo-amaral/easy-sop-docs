@@ -3,7 +3,7 @@ Please follow the steps bellow to install docusaurus for local development and b
 
 # Template
 
-This template is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, to provide a documentation system for the ICT of Courts.
+This template is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, to provide a documentation system.
 
 # Prerequistes
 
