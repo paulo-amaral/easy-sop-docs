@@ -59,17 +59,6 @@ Copy all contents of your Build folder to the webserver:
 scp -r build/* user@ip.server:/var/www/yourwebsite
 ```
 
-## 5 - Update changes on remote GITLAB repo
-
-After change and save files:
-
-```console
-git add.
-git commit -m "updated files" 
-git push --set-upstream https://github.com/paulo-amaral/easy-sop-docs
-```
-go to https://github.com/paulo-amaral/easy-sop-docs and check if repo is updated.
-
 ## Install search
 Docussaurus doesn't have support to offline search, but in this deploy, the ICT Team provided the feature.
 
@@ -79,3 +68,21 @@ https://github.com/lelouch77/docusaurus-lunr-search
 ## Setup mdx-mermaid in Docusaurus.
 Add a Mermaid diagram in md or mdx
 https://sjwall.github.io/mdx-mermaid/docs/intro/
+
+## 5 - Docker
+Install docker and docker compose (use this script) :
+https://gist.github.com/paulo-amaral/d8995b42d6fc3b7a0984ee39ac927550
+
+Clone the repository:
+
+```
+git clone https://github.com/paulo-amaral/easy-sop-docs
+```
+
+Deploy:
+
+```
+docker-compose up -d --build
+```
+
+
