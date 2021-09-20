@@ -64,7 +64,7 @@ service.
   
 
 ## Install search
-Docussaurus doesn't have support to offline search, but in this deploy(check docusaurus docs).
+Docussaurus doesn't have support to offline search(check docusaurus docs).
 
 The search  is based on: 
 https://github.com/lelouch77/docusaurus-lunr-search
